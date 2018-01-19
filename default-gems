@@ -1,0 +1,5 @@
+# Business
+bundler
+rubocop
+rails ~>5.0
+httparty
