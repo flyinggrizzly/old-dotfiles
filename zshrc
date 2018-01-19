@@ -14,7 +14,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man ruby rails bundler docker gem git-extras osx tig colorize github vagrant brew zsh-syntax-highlighting history-substring-search)
+plugins=(git colored-man ruby rails bundler docker gem git-extras tig colorize github vagrant brew zsh-syntax-highlighting history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -25,6 +25,8 @@ source ~/.powerlevel9krc
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
+
+export EDITOR=vim
 
 alias ls="ls -lG"
 
