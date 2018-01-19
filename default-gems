@@ -1,5 +1,11 @@
+# Gems to be installed by default with rbenv
+# Required rbenv/rbenv-default-gems
+
 # Business
 bundler
 rubocop
 rails ~>5.0
 httparty
+
+# Party
+uss-enterprise
