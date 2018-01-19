@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+name = SeanDMR
+email = sean@flyinggrizzly.io
+[core]
+	editor = /usr/bin/vim
+
+[alias]
+  st   = status
+  d    = diff
+  hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
