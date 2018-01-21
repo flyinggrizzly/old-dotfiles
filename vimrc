@@ -252,3 +252,9 @@ let g:syntastic_check_on_wq = 0
 
 " Use Rubocop
 let g:syntastic_ruby_checkers = ['rubocop']
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Tagbar 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+nnoremap <silent> <C-t> :TagbarToggle<CR>
