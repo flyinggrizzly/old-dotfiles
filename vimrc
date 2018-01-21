@@ -237,6 +237,10 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Ruby linting and syntax
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Toggle Syntastic with C-s
+map <C-s> :SyntasticToggle<CR>
+
 " Syntastic recommended defaults
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
