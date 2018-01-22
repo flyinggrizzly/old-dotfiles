@@ -1,3 +1,6 @@
+# Set TERM color
+export TERM='xterm-256color'
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -46,9 +49,6 @@ alias racbox='bundle exec rails console --sandbox'
 
 # Jekyll aliases
 alias jeks='bundle exec jekyll serve'
-
-# Make it so
-enterprise 
 
 # Configure thefuck
 eval $(thefuck --alias)

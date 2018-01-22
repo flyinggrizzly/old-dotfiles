@@ -1,5 +1,7 @@
 #!/bin/bash
 
+ln -s tmux.conf      ~/.tmux.conf
+
 ln -s zshrc          ~/.zshrc
 ln -s powerlevel9krc ~/.powerlevel9krc
 

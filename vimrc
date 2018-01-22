@@ -180,7 +180,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'Raimondi/delimitMate'
 
 " Auto-close HTML tags
-Plug 'docunext/closetag.vim'
+" Plug 'docunext/closetag.vim'
 
 " Commenting
 Plug 'scrooloose/nerdcommenter'
@@ -206,6 +206,9 @@ call plug#end()
 
 " Map C-n to toggle NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
+" Show dotfiles
+let NERDTreeShowHidden=1
 
 " Git symbols
 let g:NERDTreeIndicatorMapCustom = {
