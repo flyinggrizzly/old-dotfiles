@@ -1,3 +1,6 @@
+# Set EDITOR
+export EDITOR='vim'
+
 # Set TERM color
 export TERM='xterm-256color'
 
@@ -52,3 +55,6 @@ alias jeks='bundle exec jekyll serve'
 
 # Configure thefuck
 eval $(thefuck --alias)
+
+# Tmuxinator shell completions
+source ~/.bin/tmuxinator.zsh
