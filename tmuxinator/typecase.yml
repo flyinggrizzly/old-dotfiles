@@ -44,11 +44,12 @@ pre_window: tmux source ~/.tmux.conf
 
 windows:
   - editor:
-    layout: main-horizontal
+      layout: 5189,236x60,0,0{183x60,0,0,1,52x60,184,0[52x30,184,0,3,52x14,184,31,4,52x14,184,46,5]}
       # Synchronize all panes of this window, can be enabled before or after the pane commands run.
       # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
       # synchronize: after
       panes:
         - cd apps && vim
+        - cd apps
         - cd machine && vagrant ssh
         - cd machine && vagrant ssh
