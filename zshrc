@@ -56,5 +56,8 @@ alias jeks='bundle exec jekyll serve'
 # Configure thefuck
 eval $(thefuck --alias)
 
+# Source .tmux.conf
+eval 'tmux source ~/.tmux.conf'
+
 # Tmuxinator shell completions
 source ~/.bin/tmuxinator.zsh
