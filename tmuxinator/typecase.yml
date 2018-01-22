@@ -44,7 +44,7 @@ pre_window: tmux source ~/.tmux.conf
 
 windows:
   - editor:
-    layout: 9701,364x96,0,0{213x96,0,0,1,77x96,214,0,4,72x96,292,0[72x47,292,0,2,72x48,292,48,3
+    layout: main-horizontal
       # Synchronize all panes of this window, can be enabled before or after the pane commands run.
       # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
       # synchronize: after

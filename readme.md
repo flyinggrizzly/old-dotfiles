@@ -10,7 +10,7 @@ These assume that you are:
 
 1. using `zsh`, instead of `bash` or whatever
 2. using [`oh-my-zsh`](https://github.com/robbyrussell/oh-my-zsh) to manage `zsh`
-3. have the [powerlevel9k](https://github.com/bhilburn/powerlevel9k) zsh theme installed (a prereq for this is having [nerd fonts](https://github.com/ryanoasis/nerd-fonts) fonts installed)
+3. have the [powerlevel9k](https://github.com/bhilburn/powerlevel9k) zsh theme installed (a prereq for this is having [patched awesome powerline fonts](https://github.com/gabrielelana/awesome-terminal-fonts/tree/patching-strategy/patched)
 
 ### Vim
 
