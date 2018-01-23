@@ -50,7 +50,7 @@ windows:
         - cd apps
         - cd machine && vagrant ssh
   - console:
-      layout: tiled
+      layout: e42e,364x74,0,0{100x74,0,0[100x37,0,0,28,100x36,0,38,31],113x74,101,0[113x37,101,0,29,113x36,101,38,32],149x74,215,0[149x37,215,0,30,149x36,215,38,33]}
       panes: 
         - cd machine && vagrant ssh
         - cd machine && vagrant ssh
