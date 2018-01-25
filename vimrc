@@ -225,6 +225,9 @@ call plug#end()
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'cobalt2'
 
+" Set this. Airline will handle the rest.
+let g:airline#extensions#ale#enabled = 1
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Nerdtree config
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -258,8 +261,8 @@ let g:indent_guides_enable_on_vim_startup = 1
 
 " Set colors
 let g:indent_guides_auto_colors = 0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=8
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=17
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=18
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -273,6 +276,8 @@ let g:ale_linters = {
 
 " Enable completion
 let g:ale_completion_enabled = 1
+
+highlight ALEWarning ctermbg=166
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Tagbar 
