@@ -252,7 +252,7 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Toggle Syntastic with C-s
-map <C-r> :SyntasticToggle<CR>
+" map <C-r> :SyntasticToggle<CR>
 
 " Syntastic recommended defaults
 set statusline+=%#warningmsg#
