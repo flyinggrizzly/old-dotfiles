@@ -203,7 +203,10 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'nathanaelkane/vim-indent-guides'
 
 " Syntax checking and linting
-Plug 'vim-syntastic/syntastic'
+" Plug 'vim-syntastic/syntastic'
+
+" Async syntax checking with ALE
+Plug 'w0rp/ale'
 
 " Sourcecode tagging; requires ctags
 Plug 'majutsushi/tagbar'
@@ -265,6 +268,17 @@ let g:syntastic_check_on_wq = 0
 
 " Use Rubocop
 let g:syntastic_ruby_checkers = ['rubocop']
+
+
+"""""""""""""""""""" ALE Config """"""""""""""""""""""""""""""
+
+" Use Rubocop
+let g:ale_linters = {
+\   'ruby': ['rubocop'],
+\ }
+
+" Enable completion
+let g:ale_completion_enabled = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Tagbar 
