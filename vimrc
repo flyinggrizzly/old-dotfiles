@@ -186,6 +186,10 @@ highlight SpecialKey guifg=#4a4a59
 " Specify plugin directory
 call plug#begin('~/.vim/plugged')
 
+" Airline statusbar
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 " Auto-close parens, quotes, etc
 Plug 'Raimondi/delimitMate'
 
@@ -212,6 +216,14 @@ Plug 'w0rp/ale'
 Plug 'majutsushi/tagbar'
 
 call plug#end()
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Theme
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:airline_powerline_fonts = 1
+let g:airline_theme = 'cobalt2'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Nerdtree config
@@ -253,24 +265,6 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Ruby linting and syntax
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" Toggle Syntastic with C-s
-" map <C-r> :SyntasticToggle<CR>
-
-" Syntastic recommended defaults
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-" Use Rubocop
-let g:syntastic_ruby_checkers = ['rubocop']
-
-
-"""""""""""""""""""" ALE Config """"""""""""""""""""""""""""""
 
 " Use Rubocop
 let g:ale_linters = {
