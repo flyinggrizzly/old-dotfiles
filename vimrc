@@ -275,7 +275,7 @@ let g:ale_linters = {
 " Enable completion
 let g:ale_completion_enabled = 1
 
-highlight ALEWarning ctermbg=1
+highlight ALEWarning ctermbg=88
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Tagbar 
