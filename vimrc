@@ -200,6 +200,7 @@ Plug 'scrooloose/nerdcommenter'
 " Files and git
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'jreybert/vimagit'
 
 " Indent guides
 Plug 'nathanaelkane/vim-indent-guides'
@@ -231,7 +232,7 @@ let g:airline#extensions#ale#enabled = 1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Map C-n to toggle NERDTree
-map <C-n> :NERDTreeToggle<CR>
+map <C-b> :NERDTreeToggle<CR>
 
 " Show dotfiles
 let NERDTreeShowHidden=1
