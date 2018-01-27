@@ -50,8 +50,11 @@ set so=7
 "Always show current position
 set ruler
 
-"Line numbers on
+" Line numbers on
 set number
+
+" Show command/leader keystrokes
+set showcmd
 
 " Height of the command bar
 set cmdheight=2
