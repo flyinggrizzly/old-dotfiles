@@ -204,12 +204,10 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'jreybert/vimagit'
+Plug 'ctrlpvim/ctrlp.vim'
 
 " Indent guides
 Plug 'nathanaelkane/vim-indent-guides'
-
-" Syntax checking and linting
-" Plug 'vim-syntastic/syntastic'
 
 " Async syntax checking with ALE
 Plug 'w0rp/ale'
