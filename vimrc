@@ -6,7 +6,6 @@
 "
 " Version:
 "       5.0 - 29/05/12 15:43:36
-"
 " Blog_post:
 "       http://amix.dk/blog/post/19691#The-ultimate-Vim-configuration-on-Github
 "
@@ -128,6 +127,7 @@ endif
 
 try
     colorscheme elflord
+    highlight LineNr ctermfg=grey
 catch
 endtry
 
@@ -205,6 +205,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'jreybert/vimagit'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-fugitive'
 
 " Indent guides
 Plug 'nathanaelkane/vim-indent-guides'
@@ -224,6 +225,8 @@ call plug#end()
 
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'cobalt2'
+
+let g:airline_extensions = ['branch', 'tabline']
 
 " Set this. Airline will handle the rest.
 let g:airline#extensions#ale#enabled = 1
