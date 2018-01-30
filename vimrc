@@ -37,14 +37,23 @@ set autoread
 nmap <leader>w :w!<cr>
 
 
+" Yank to OS clipboard
+if has("unix")
+  let s:uname = system("uname")
+  if s:uname == "Darwin\n"
+    nmap <leader>Y :call system('pbcopy', @0)<cr>
+  endif
+endif
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
-" Turn on the WiLd menu
-" set wildmenu
+" Turn on the Wild menu
+set wildmenu
+set wildmode=longest:full,full
 
 "Always show current position
 set ruler
