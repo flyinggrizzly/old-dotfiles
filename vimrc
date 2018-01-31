@@ -97,6 +97,7 @@ set magic
 
 " Show matching brackets when text indicator is over them
 set showmatch
+
 " How many tenths of a second to blink when matching brackets
 set mat=2
 
@@ -105,12 +106,6 @@ set noerrorbells
 set novisualbell
 set t_vb=
 set tm=500
-
-" Properly disable sound on errors on MacVim
-if has("gui_macvim")
-    autocmd GUIEnter * set vb t_vb=
-endif
-
 
 " Add a bit extra margin to the left
 set foldcolumn=1
@@ -299,3 +294,4 @@ highlight ALEWarning ctermbg=88
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 nnoremap <silent> <C-t> :TagbarToggle<CR>
+
