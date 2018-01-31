@@ -33,6 +33,9 @@ set history=500
 " Set to auto read when a file is changed from the outside
 set autoread
 
+" Prevent auto line breaking
+set textwidth=0 wrapmargin=0
+
 " Fast saving
 nmap <leader>w :w!<cr>
 
