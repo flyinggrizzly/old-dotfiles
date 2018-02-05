@@ -213,6 +213,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'jreybert/vimagit'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'mileszs/ack.vim'
 
 " Indent guides
 Plug 'nathanaelkane/vim-indent-guides'
