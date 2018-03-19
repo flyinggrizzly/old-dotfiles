@@ -1,6 +1,11 @@
 # Dotfiles
 
-These are my dotfiles. There are many like them, but these are mine.
+**THESE ARE NO LONGER IN USE OR BEING MAINTAINED.**
+
+*Now using the [Thoughtbot
+dotfiles](https://github.com/flyinggrizzly/thoughtdotfiles) and my own
+[customizations](https://github.com/flyinggrizzly/thoughtdotfiles-local)
+instead.*
 
 ## Prereqs
 
